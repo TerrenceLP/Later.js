@@ -183,7 +183,7 @@ $(function() {
              }
              // Monthly Parties - Repeat on the same week and same day each month.
              if (DateRangeRepeat == '3') {
-             sched = later.parse.recur().on(monthweek).weekOfMonth().on(day).dayOfWeek();
+               sched = later.parse.recur().on(monthweek).weekOfMonth().on(day).dayOfWeek();
              repeat = later.schedule(sched).next(occurrences, d);
                 for(var i = 0; i < occurrences; i++) {
                   // use this out put for the DB insert
