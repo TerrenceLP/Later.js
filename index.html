@@ -165,7 +165,7 @@ $(function() {
 
              // Daily Parties - Parties that span a few days.
              if (DateRangeRepeat == '1') {
-             sched = later.parse.recur().on(date).hour();
+             sched = later.parse.recur().on(hour).hour();
              repeat = later.schedule(sched).next(occurrences, d);
                 for(var i = 0; i < occurrences; i++) {
                   // use this out put for the DB insert
