@@ -16,5 +16,4 @@ Dependencies:
 -Bootstrap DatePicker 1.7
 -Later.js
 
-007
-Make the world a better place.
+C'mon man work!
